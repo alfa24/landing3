@@ -1,0 +1,339 @@
+/*
+
+My Custom CSS
+=============
+
+*/
+
+/*GLOBAL*/
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    color: #5a6a72;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-primary {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: 0;
+    position: relative;
+    box-shadow: none;
+    z-index: 1;
+}
+
+.padding {
+    padding: 90px 0;
+}
+
+
+/*SLIDER*/
+
+.carousel-content {
+    left: 0;
+    margin-top: 8%;
+    color: #fff;
+    width: 100%;
+}
+
+.carousel-content h1 {
+    position: relative;
+    font-size: 93px;
+    font-weight: 300;
+    text-transform: initial;
+    margin-bottom: 55px;
+}
+
+.carousel-content .pacifito {
+    font-size: 57px;
+    font-family: 'Pacifico', cursive;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.carousel-content b {
+    font-weight: 800;
+}
+
+.carousel-content small {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+.carousel-content h1:after {
+    position: absolute;
+    content: "\f005 \f005 \f005 \f005 \f005 \f005\f005 \f005 \f005 \f005 \f005 \f005 \f005 \f005\f005 \f005 \f005 \f005 \f005 \f005 \f005 \f005";
+    font-family: FontAwesome;
+    font-size: 12px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    left: 0;
+    margin-top: 20px;
+    color: #dde6eb;
+}
+
+.carousel-content .btn-primary {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 13px 20px;
+    margin-top: 24px;
+}
+
+.slider-logo .img-responsive {
+    display: unset;
+}
+
+/*SPECIAL*/
+
+#special-item h2 {
+    font-weight: 500;
+    margin: 30px 0;
+    font-size: 22px;
+}
+
+#special-item .container {
+    margin-bottom: 86px;
+}
+
+h1:after {
+    position: absolute;
+    content: "\f005 \f005 \f005 \f005 \f005\f005 \f005 \f005 \f005 \f005 \f005 \f005 \f005";
+    font-family: FontAwesome;
+    font-size: 12px;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    left: 0;
+    bottom: -40px;
+    color: #dde6eb;
+}
+
+.title {
+    margin: 60px 0;
+}
+
+.title h1 {
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-family: 'Pacifico', cursive;
+
+    position: relative;
+}
+
+.orange {
+    color: #f26522;
+}
+
+.withe {
+    color: white;
+
+}
+
+#our-product .panel {
+    background-color: transparent;
+    border: 4px solid white;
+}
+
+#our-product img {
+    display: unset;
+    margin: 10px;
+}
+
+/*promo*/
+#promo {
+    max-height: 575px;
+}
+
+.promo-info {
+    padding: 25px;
+}
+
+.promo-info .title {
+    margin-bottom: 50px;
+}
+
+.promo-info .title h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #5a6a72;
+    font-weight: 700;
+}
+
+.promo-info .title h1 span {
+    display: block;
+    font-size: 24px;
+    font-family: 'Pacifico', cursive;
+    color: #f26522;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.promo-info .weekly-promo h4 {
+    color: #5a6a72;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.promo-info p {
+    color: black;
+}
+
+.promo-image {
+    margin: 20px;
+}
+
+.promo-row {
+    height: 100%;
+    display: flex;
+}
+
+.promo-row .col-sm-6 {
+    margin: auto;
+}
+
+.bxslider {
+    margin: 30px 0;
+}
+
+#promo .bx-wrapper {
+    -webkit-box-shadow: unset;
+}
+
+.bx-viewport {
+    margin-top: 20px;
+}
+
+.bx-controls {
+    position: relative;
+}
+
+.bx-next, .bx-prev {
+    left: 25%;
+    margin-left: -25px;
+    content: "hello";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-size: 40px;
+    position: absolute;
+    z-index: 999;
+}
+
+.bx-prev {
+    top: 50px;
+}
+
+.bx-next {
+    top: -50px;
+}
+
+.bx-prev, .bx-next {
+    color: #f26522;
+}
+
+/*promo offer*/
+#promo-offer .overlay-bg {
+    background-color: rgba(0, 0, 0, 0.57);
+}
+
+.promo-offer-content img {
+    margin-bottom: 30px;
+}
+
+.promo-offer-content h1 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+.promo-offer-content h1 span {
+    font-weight: 800;
+}
+
+.promo-offer-content i {
+    margin-right: 10px;
+}
+
+#promo-offer {
+    min-height: 437px;
+}
+
+#promo-offer h1:after {
+    content: '';
+}
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+    #special-item h2 {
+        font-size: 16px;
+    }
+
+    .bx-next, .bx-prev {
+        margin-left: 0;
+
+    }
+
+    .promo-offer-content > span {
+        font-size: 39px;
+        font-weight: 300;
+        text-transform: capitalize;
+    }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+    .carousel-content h1 {
+        font-size: 40px;
+    }
+
+    .carousel-content .pacifito {
+        font-size: 27px;
+    }
+
+    .promo-info .title h1 span {
+        font-size: 16px;
+    }
+
+    .promo-info .title h1 {
+        font-size: 16px;
+    }
+
+    .promo-info .weekly-promo h4, p {
+        font-size: 11px;
+    }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
