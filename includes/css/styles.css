@@ -348,6 +348,10 @@ h1:after {
     border-radius: 0px;
 }
 
+#our-menu .panel-group {
+    margin-bottom: 0px;
+}
+
 .menu-item .row {
     padding: 0px 15px;
 }
@@ -395,6 +399,43 @@ h1:after {
 #food-castle .extras i {
     font-size: 75px;
 }
+
+#book textarea {
+    height: auto !important;
+}
+
+#book .form-control {
+    height: 55px;
+    padding: 12px 18px;
+    color: #000;
+    border: 1px solid #ededed;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+#contact-form .btn-primary:hover, #contact-form .btn-primary:focus {
+    box-shadow: 0px 0px 0px 1px #dd5f23;
+}
+
+#contact-form .btn-primary {
+    padding: 15px 55px;
+    display: inline-block;
+    margin-top: 35px;
+    background-color: #f26522;
+    color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+    color: #fff;
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 1px #d65b21;
+    border-color: #d65b21;
+}
+
+
+
+
 
 /* --------------------------------------
    Media Queries
