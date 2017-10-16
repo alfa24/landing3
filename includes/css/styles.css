@@ -351,6 +351,7 @@ h1:after {
 .menu-item .row {
     padding: 0px 15px;
 }
+
 .menu-item img {
     display: unset;
 }
@@ -366,6 +367,35 @@ h1:after {
     font-weight: 500;
     margin-bottom: 10px;
 }
+
+#food-castle h1 {
+    margin-bottom: 125px;
+    position: relative;
+    font-weight: 700;
+}
+
+#food-castle .extras {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+#food-castle .extras h1:after {
+    position: absolute;
+    content: "";
+    height: 35px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -50px;
+    background-image: url("../../images/other/extras-heading-bg.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#food-castle .extras i {
+    font-size: 75px;
+}
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
